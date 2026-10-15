@@ -2,8 +2,6 @@
 
 This is a simple task management API I built using Python, Flask, and SQLite. It lets users create tasks, view them, update their details, and delete them.
 
-I built this project to get more hands-on practice with backend development, working with databases, and testing API endpoints.
-
 ## What it can do
 
 - View all tasks
