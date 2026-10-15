@@ -5,7 +5,9 @@ from contextlib import contextmanager
 
 app = Flask(__name__)
 
-DATABASE = "tasks.db"
+import os
+
+DATABASE = os.environ.get("TASKS_DATABASE", "tasks.db")
 
 
 # Connect to the database and close the connection safely
